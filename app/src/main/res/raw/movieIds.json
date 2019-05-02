@@ -1,0 +1,10 @@
+[
+  {
+    "genre": "Drama",
+    "movies": [
+      {"movie": "The Sun is Also A Star",
+        "id":"508791"},
+      {}
+    ]
+  }
+]

@@ -10,11 +10,15 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import retrofit2.converter.gson.GsonConverterFactory;
+import com.google.gson.Gson;
+import retrofit2.Retrofit;
 
 public class MainandGenreActivity extends AppCompatActivity {
 
     private ListView genrelist;
     private ArrayList<String> list;
+    private String API_KEY = "0bd70a2fbc2eccd47cf0105a9cfbb6cc";
 
 
     @Override
@@ -23,6 +27,7 @@ public class MainandGenreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        searchMovies();
         list = new ArrayList<>();
         genrelist = findViewById(R.id.listView_genre_mainandgenre);
 
@@ -52,9 +57,15 @@ public class MainandGenreActivity extends AppCompatActivity {
 
             }
         });
-
-
-
-
     }
+
+
+    private void searchMovies() {
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("https://api.themoviedb.org/3/")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        MovieService service = retrofit.create(MovieService.class);
+    }
+
 }
