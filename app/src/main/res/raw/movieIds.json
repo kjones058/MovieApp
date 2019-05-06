@@ -3,8 +3,247 @@
     "genre": "Drama",
     "movies": [
       {"movie": "The Sun is Also A Star",
-        "id":"508791"},
-      {}
+        "id":"508791"
+      },
+
+      {"movie": "Fantastic Beasts:The Crimes of Grindelwald",
+        "id":"338952"
+      },
+
+      {"movie":"Five Feet Apart",
+        "id":"527641"
+      },
+      {
+        "movie":"Miss Bala",
+        "id":"500852"
+      },
+      {
+        "movie":"A Star is Born",
+        "id":"332562"
+      },
+      {
+        "movie":"First Man",
+        "id":"369972"
+      },
+      {
+        "movie":"Bohemein Rapsody",
+        "id":"424694"
+      },
+      {
+        "movie":"Adrift",
+        "id":"429300"
+      },
+      {
+        "movie":"A Simple Favor",
+        "id":"484247"
+      }
+
     ]
+  },
+  {
+    "genre":"Horror/Thriller",
+    "movies":[
+      {
+        "movie":"It",
+        "id":"19614"
+      },
+      {
+        "movie":"The New Mutants",
+        "id":"340102"
+      },
+      {
+        "movie":"Escape Room",
+        "id":"522681"
+      },
+      {
+        "movie":"Hotel Mumbai",
+        "id":"416144"
+      },
+      {
+        "movie":"Us",
+        "id":"458723"
+      },
+      {
+        "movie":"The Curse of La Llorona",
+        "id":"480414"
+      },
+      {
+        "movie":"Happy Death Day 2U",
+        "id":"512196"
+      },
+      {
+        "movie":"Get Out",
+        "id":"419430"
+      },
+      {
+        "movie":"The Nun",
+        "id":"439079"
+      },
+    ]
+  },
+  {
+    "genre":"Fantasy/Science Fiction",
+    "movies":[
+      {
+        "movie":"Black Panther",
+        "id":"284054"
+      },
+      {
+        "movie":"Avengers: Infinity War",
+        "id":"299536"
+      },
+      {
+        "movie":"Spider-Man Homecoming",
+        "id":"315635"
+      },
+      {
+        "movie":"Spider-Man: Far From Home",
+        "id":"429617"
+      },
+      {
+        "movie":"Captain Marvel",
+        "id":"299537"
+      },
+      {
+        "movie":"Avengers: Endgame",
+        "id":"299534"
+      },
+      {
+        "movie":"Solo: A Star Wars Story",
+        "id":"348350"
+      },
+      {
+        "movie":"Star Wars: The Last Jedi",
+        "id":"181808"
+      },
+      {
+        "movie":"Thor: Ragnarok",
+        "id":"284053"
+      },
+    ]
+  },
+  {
+    "genre":"Romance",
+    "movies":[
+      {
+        "movie": "The Fault in Our Stars",
+        "id":"222935"
+      },
+      {
+        "movie":"The Notebook",
+        "id":"11036"
+      },
+      {
+        "movie":"A Star is Born",
+        "id":"332562"
+      },
+      {
+        "movie":"Crazy Rich Asains",
+        "id":"455207"
+      },
+      {
+        "movie":"96",
+        "id":"441717"
+      },
+      {
+        "movie":"To All the Boys I've Loved Before",
+        "id":"466282"
+      },
+      {
+        "movie":"La La Land",
+        "id":"313369"
+      },
+      {
+        "movie":"The Big Sick",
+        "id":"416477"
+      },
+      {
+        "movie":"Aladdin",
+        "id":"420817"
+      }
+    ]
+  },
+  {
+    "genre":"Comedy",
+    "movies":[
+      {
+        "movie":"Crazy Rich Asains",
+        "id":"455207"
+      },
+      {
+        "movie":"The Spy Who Dumped Me",
+        "id":"454992"
+      },
+      {
+        "movie": "Tag",
+        "id":"455980"
+      },
+      {
+        "movie":"Ralph Breaks the Internet",
+        "id":"404368"
+      },
+      {
+        "movie":"Life of Party",
+        "id":"399796"
+      },
+      {
+        "movie":"Shazam",
+        "id":"287947"
+      },
+      {
+        "movie":"Isn't it Romantic",
+        "id":"449563"
+      },
+      {
+        "movie":"Spies in Disguise",
+        "id":"431693"
+      },
+      {
+        "movie":"Booksmart",
+        "id":"505600"
+      },
+    ]
+  },
+  {
+    "genre":"Crime/Action",
+    "movies":[
+      {
+        "movie":"Spy",
+        "id":"238713"
+      },
+      {
+        "movie":"Skyscraper",
+        "id":"447200"
+      },
+      {
+        "movie":"SuperFly",
+        "id":"500475"
+      },
+      {
+        "movie":"Joker",
+        "id":"475557"
+      },
+      {
+        "movie":"The Old Man & the Gun",
+        "id":"429203"
+      },
+      {
+        "movie":"If Beale Street Could Talk",
+        "id":"465914"
+      },
+      {
+        "movie":"A Simple Flavor",
+        "id":"484247"
+      },
+      {
+        "movie":"Holmes and Watson",
+        "id":"426563"
+      },
+      {
+        "movie":"Assassination Nation",
+        "id":"446101"
+      },
+    ]
+
   }
 ]
