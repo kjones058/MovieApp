@@ -13,7 +13,6 @@ public class MovieClass {
     private String Plot;
     private String Language;
     private String Country;
-    //private String Awards;
     private String Poster;
 
     public String getTitle() {

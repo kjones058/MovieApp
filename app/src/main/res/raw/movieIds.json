@@ -3,39 +3,48 @@
     "genre": "Drama",
     "movies": [
       {"movie": "The Sun is Also A Star",
-        "id":"508791"
+        "id":"508791",
+        "poster_path": "/pYfI62qgone3Ai0tzgxtQq7chDE.jpg"
       },
 
       {"movie": "Fantastic Beasts:The Crimes of Grindelwald",
-        "id":"338952"
+        "id":"338952",
+        "poster_path": "/fMMrl8fD9gRCFJvsx0SuFwkEOop.jpg"
       },
 
       {"movie":"Five Feet Apart",
-        "id":"527641"
+        "id":"527641",
+        "poster_path": "/kreTuJBkUjVWePRfhHZuYfhNE1T.jpg"
       },
       {
         "movie":"Miss Bala",
-        "id":"500852"
+        "id":"500852",
+        "poster_path": "/ae9yrSAS7nLZPbbkOm61pSuIqeo.jpg"
       },
       {
         "movie":"A Star is Born",
-        "id":"332562"
+        "id":"332562",
+        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg"
       },
       {
         "movie":"First Man",
-        "id":"369972"
+        "id":"369972",
+        "poster_path": "/i91mfvFcPPlaegcbOyjGgiWfZzh.jpg"
       },
       {
         "movie":"Bohemein Rapsody",
-        "id":"424694"
+        "id":"424694",
+        "poster_path":"/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg"
       },
       {
         "movie":"Adrift",
-        "id":"429300"
+        "id":"429300",
+        "poster_path":"/5gLDeADaETvwQlQow5szlyuhLbj.jpg"
       },
       {
         "movie":"A Simple Favor",
-        "id":"484247"
+        "id":"484247",
+        "poster_path":"/5EJWZQ8dh99hfgXP9zAD5Ak5Hrn.jpg"
       }
 
     ]
