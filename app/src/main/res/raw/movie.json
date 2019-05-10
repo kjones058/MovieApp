@@ -2,34 +2,34 @@
   {
     "genre": "Drama",
     "movies": [
-      {"movie": "The Sun is Also A Star",
+      {"movie":"The Sun is Also A Star",
         "id":"508791",
-        "poster_path": "/pYfI62qgone3Ai0tzgxtQq7chDE.jpg"
+        "poster_path":"/pYfI62qgone3Ai0tzgxtQq7chDE.jpg"
       },
 
       {"movie": "Fantastic Beasts:The Crimes of Grindelwald",
         "id":"338952",
-        "poster_path": "/fMMrl8fD9gRCFJvsx0SuFwkEOop.jpg"
+        "poster_path":"/fMMrl8fD9gRCFJvsx0SuFwkEOop.jpg"
       },
 
       {"movie":"Five Feet Apart",
         "id":"527641",
-        "poster_path": "/kreTuJBkUjVWePRfhHZuYfhNE1T.jpg"
+        "poster_path":"/kreTuJBkUjVWePRfhHZuYfhNE1T.jpg"
       },
       {
         "movie":"Miss Bala",
         "id":"500852",
-        "poster_path": "/ae9yrSAS7nLZPbbkOm61pSuIqeo.jpg"
+        "poster_path":"/ae9yrSAS7nLZPbbkOm61pSuIqeo.jpg"
       },
       {
         "movie":"A Star is Born",
         "id":"332562",
-        "poster_path": "/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg"
+        "poster_path":"/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg"
       },
       {
         "movie":"First Man",
         "id":"369972",
-        "poster_path": "/i91mfvFcPPlaegcbOyjGgiWfZzh.jpg"
+        "poster_path":"/i91mfvFcPPlaegcbOyjGgiWfZzh.jpg"
       },
       {
         "movie":"Bohemein Rapsody",
@@ -54,40 +54,49 @@
     "movies":[
       {
         "movie":"It",
-        "id":"19614"
+        "id":"346364",
+        "poster_path":"/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg"
       },
       {
         "movie":"The New Mutants",
-        "id":"340102"
+        "id":"340102",
+        "poster_path":"/5AI4Y7KUTG2WDyuBsqeClLTind5.jpg"
       },
       {
         "movie":"Escape Room",
-        "id":"522681"
+        "id":"522681",
+        "poster_path":"/8Ls1tZ6qjGzfGHjBB7ihOnf7f0b.jpg"
       },
       {
         "movie":"Hotel Mumbai",
-        "id":"416144"
+        "id":"416144",
+        "poster_path":"/4UM3WBgWvAXi9CaBXJjwAMnEY05.jpg"
       },
       {
         "movie":"Us",
-        "id":"458723"
+        "id":"458723",
+        "poster_path":"/ux2dU1jQ2ACIMShzB3yP93Udpzc.jpg"
       },
       {
         "movie":"The Curse of La Llorona",
-        "id":"480414"
+        "id":"480414",
+        "poster_path":"/jhZlXSnFUpNiLAek9EkPrtLEWQI.jpg"
       },
       {
         "movie":"Happy Death Day 2U",
-        "id":"512196"
+        "id":"512196",
+        "poster_path":"/4tdnePOkOOzwuGPEOAHp8UA4vqx.jpg"
       },
       {
         "movie":"Get Out",
-        "id":"419430"
+        "id":"419430",
+        "poster_path":"/1SwAVYpuLj8KsHxllTF8Dt9dSSX.jpg"
       },
       {
         "movie":"The Nun",
-        "id":"439079"
-      },
+        "id":"439079",
+        "poster_path":"/sFC1ElvoKGdHJIWRpNB3xWJ9lJA.jpg"
+      }
     ]
   },
   {
@@ -95,11 +104,13 @@
     "movies":[
       {
         "movie":"Black Panther",
-        "id":"284054"
+        "id":"284054",
+        "poster_path":"/uxzzxijgPIY7slzFvMotPv8wjKA.jpg"
       },
       {
         "movie":"Avengers: Infinity War",
-        "id":"299536"
+        "id":"299536",
+        "poster_path":"/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
       },
       {
         "movie":"Spider-Man Homecoming",
@@ -128,7 +139,7 @@
       {
         "movie":"Thor: Ragnarok",
         "id":"284053"
-      },
+      }
     ]
   },
   {
@@ -210,7 +221,7 @@
       {
         "movie":"Booksmart",
         "id":"505600"
-      },
+      }
     ]
   },
   {
@@ -251,7 +262,7 @@
       {
         "movie":"Assassination Nation",
         "id":"446101"
-      },
+      }
     ]
 
   }
