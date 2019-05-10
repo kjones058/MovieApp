@@ -18,7 +18,6 @@ public class MainandGenreActivity extends AppCompatActivity {
 
     private ListView genrelist;
     private ArrayList<String> list;
-    private String API_KEY = "0bd70a2fbc2eccd47cf0105a9cfbb6cc";
 
 
     @Override

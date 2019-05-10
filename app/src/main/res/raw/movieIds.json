@@ -114,32 +114,38 @@
       },
       {
         "movie":"Spider-Man Homecoming",
-        "id":"315635"
-      },
+        "id":"315635",
+        "poster_path":"/nogV4th2P5QWYvQIMiWHj4CFLU9.jpg"},
       {
         "movie":"Spider-Man: Far From Home",
-        "id":"429617"
+        "id":"429617",
+        "poster_path":"/nogV4th2P5QWYvQIMiWHj4CFLU9.jpg"
       },
       {
         "movie":"Captain Marvel",
-        "id":"299537"
+        "id":"299537",
+        "poster_path":"/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
       },
       {
         "movie":"Avengers: Endgame",
-        "id":"299534"
+        "id":"299534",
+        "poster_path":"/or06FN3Dka5tukK1e9sl16pB3iy.jpg"
       },
       {
         "movie":"Solo: A Star Wars Story",
-        "id":"348350"
+        "id":"348350",
+        "poster_path":"/3IGbjc5ZC5yxim5W0sFING2kdcz.jpg"
       },
       {
         "movie":"Star Wars: The Last Jedi",
-        "id":"181808"
+        "id":"181808",
+        "poster_path":"/kOVEVeg59E0wsnXmF9nrh6OmWII.jpg"
       },
       {
         "movie":"Thor: Ragnarok",
-        "id":"284053"
-      }
+        "id":"284053",
+        "poster_path":"/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg"
+      },
     ]
   },
   {
@@ -147,39 +153,48 @@
     "movies":[
       {
         "movie": "The Fault in Our Stars",
-        "id":"222935"
+        "id":"222935",
+        "poster_path":"/sc6XLX6J714LDkVV3Ys3clgypQS.jpg"
       },
       {
         "movie":"The Notebook",
-        "id":"11036"
+        "id":"11036",
+        "poster_path":"/gMfstesBXKdsHToAUXVPHujUDfb.jpg"
       },
       {
         "movie":"A Star is Born",
-        "id":"332562"
+        "id":"332562",
+        "poster_path":"/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg"
       },
       {
         "movie":"Crazy Rich Asains",
-        "id":"455207"
+        "id":"455207",
+        "poster_path":"/1XxL4LJ5WHdrcYcihEZUCgNCpAW.jpg"
       },
       {
         "movie":"96",
-        "id":"441717"
+        "id":"441717",
+        "poster_path":"/nrVloCa2hCFOztRF1DZU2jnWIiQ.jpg"
       },
       {
         "movie":"To All the Boys I've Loved Before",
-        "id":"466282"
+        "id":"466282",
+        "poster_path":"/hKHZhUbIyUAjcSrqJThFGYIR6kI.jpg"
       },
       {
         "movie":"La La Land",
-        "id":"313369"
+        "id":"313369",
+        "poster_path":"/hKHZhUbIyUAjcSrqJThFGYIR6kI.jpg"
       },
       {
         "movie":"The Big Sick",
-        "id":"416477"
+        "id":"416477",
+        "poster_path":"/qquEFkFbQX1i8Bal260EgGCnZ0f.jpg"
       },
       {
         "movie":"Aladdin",
-        "id":"420817"
+        "id":"420817",
+        "poster_path":"/uF3zJmoYQUab5tiUfUECKpkkjIJ.jpg"
       }
     ]
   },
@@ -188,39 +203,48 @@
     "movies":[
       {
         "movie":"Crazy Rich Asains",
-        "id":"455207"
+        "id":"455207",
+        "poster_path":"/1XxL4LJ5WHdrcYcihEZUCgNCpAW.jpg"
       },
       {
         "movie":"The Spy Who Dumped Me",
-        "id":"454992"
+        "id":"454992",
+        "poster_path":"/tpPERI5i6yjT73jYWyZ9iWltQ9L.jpg"
       },
       {
         "movie": "Tag",
-        "id":"455980"
+        "id":"455980",
+        "poster_path":"/eXXpuW2xaq5Aen9N5prFlARVIvr.jpg"
       },
       {
         "movie":"Ralph Breaks the Internet",
-        "id":"404368"
+        "id":"404368",
+        "poster_path":"/lvfIaThG5HA8THf76nghKinjjji.jpg"
       },
       {
         "movie":"Life of Party",
-        "id":"399796"
+        "id":"399796",
+        "poster_path":"/749iUAWQWeutQuTd9excjmigecw.jpg"
       },
       {
         "movie":"Shazam",
-        "id":"287947"
+        "id":"287947",
+        "poster_path":"/xnopI5Xtky18MPhK40cZAGAOVeV.jpg"
       },
       {
         "movie":"Isn't it Romantic",
-        "id":"449563"
+        "id":"449563",
+        "poster_path":"/5xNBYXuv8wqiLVDhsfqCOr75DL7.jpg"
       },
       {
         "movie":"Spies in Disguise",
-        "id":"431693"
+        "id":"431693",
+        "poster_path":"/76LxszwANLfgzxydpnp132XkKVY.jpg"
       },
       {
         "movie":"Booksmart",
-        "id":"505600"
+        "id":"505600",
+        "poster_path":"/Awyg5IdELQV3sBoErhJ9QVcX8TA.jpg"
       }
     ]
   },
@@ -229,39 +253,48 @@
     "movies":[
       {
         "movie":"Spy",
-        "id":"238713"
+        "id":"238713",
+        "poster_path":"/xaOq0BnMHl445iZ4B7szBzaWgjS.jpg"
       },
       {
         "movie":"Skyscraper",
-        "id":"447200"
+        "id":"447200",
+        "poster_path":"/5LYSsOPzuP13201qSzMjNxi8FxN.jpg"
       },
       {
         "movie":"SuperFly",
-        "id":"500475"
+        "id":"500475",
+        "poster_path":"/gGk9H5PVpWzbsYkmnBeKevQkwwf.jpg"
       },
       {
         "movie":"Joker",
-        "id":"475557"
+        "id":"475557",
+        "poster_path":"/bfHlGMDq2RqRT1xmjq9NJSzfhCv.jpg"
       },
       {
         "movie":"The Old Man & the Gun",
-        "id":"429203"
+        "id":"429203",
+        "poster_path":"/a4BfxRK8dBgbQqbRxPs8kmLd8LG.jpg"
       },
       {
         "movie":"If Beale Street Could Talk",
-        "id":"465914"
+        "id":"465914",
+        "poster_path":"/ye3KqC2hUYia6ktGIhZtmKjj3ya.jpg"
       },
       {
         "movie":"A Simple Flavor",
-        "id":"484247"
+        "id":"484247",
+        "poster_path":"/5EJWZQ8dh99hfgXP9zAD5Ak5Hrn.jpg"
       },
       {
         "movie":"Holmes and Watson",
-        "id":"426563"
+        "id":"426563",
+        "poster_path":"/orEUlKndjV1rEcWqXbbjegjfv97.jpg"
       },
       {
         "movie":"Assassination Nation",
-        "id":"446101"
+        "id":"446101",
+        "poster_path":"/q2Nmyqh84rMiBwNfC2jMjuQluW4.jpg"
       }
     ]
 
