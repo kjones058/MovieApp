@@ -11,6 +11,8 @@ import retrofit2.http.Query;
 
 public interface MovieService {
 
-    @GET("movie{id}")
+    @GET("movie/{id}")
     Call<List<Movie>> getMovieById(@Path("id") int id, @Query("api_key") String key);
+
+    Call<List<Poster>> getPosterpath(@Path("poster_path") String path, @Query("api_key") String key);
 }

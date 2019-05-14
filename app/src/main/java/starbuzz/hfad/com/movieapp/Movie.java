@@ -1,6 +1,6 @@
 package starbuzz.hfad.com.movieapp;
 
-public class MovieClass {
+public class Movie {
     private String Title;
     private int Year;
     private String Rated;
