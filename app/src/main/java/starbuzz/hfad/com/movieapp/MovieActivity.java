@@ -3,6 +3,9 @@ package starbuzz.hfad.com.movieapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.widget.AdapterView;
+import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.view.View;
@@ -23,6 +26,7 @@ public class MovieActivity extends AppCompatActivity {
     private MovieDetails movieDetails;
     private TextView movieTitle;
     private ImageView moviePoster;
+    private GridView movieGrid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,24 +35,28 @@ public class MovieActivity extends AppCompatActivity {
 
         wireWidgets();
         searchMovies();
-        Picasso.get().load("http://image.tmdb.org/t/p/w185/").into(moviePoster);
+        //Picasso.get().load("http://image.tmdb.org/t/p/w185/").into(moviePoster);
 
-        movieTitle.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String textView = movieTitle.getText().toString();
-                Intent intenttextview = new Intent(MovieActivity.this, Content.class);
-                startActivity(intenttextview);
-            }
-        });
+//        movieTitle.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                String textView = movieTitle.getText().toString();
+//                Intent intenttextview = new Intent(MovieActivity.this, Content.class);
+//                startActivity(intenttextview);
+//            }
+//        });
+
+        assignId();
 
     }
+
 
     private void wireWidgets(){
-        movieTitle = findViewById(R.id.textView_movieactivity_movieTitle);
+       // movieTitle = findViewById(R.id.textView_movieactivity_movieTitle);
+        movieGrid = findViewById(R.id.movieGrid_dynamic);
     }
     private void importPoster(){
-        String jsonString = readTextFile(getResources().openRawResource(R.raw.movieIds));
+        String jsonString = readTextFile(getResources().openRawResource(R.raw.movie));
         Gson gson = new Gson();
 
         Poster[] poster_path = gson.fromJson(jsonString, Poster[].class);
@@ -62,14 +70,16 @@ public class MovieActivity extends AppCompatActivity {
     }
 
     private void assignId(){
-        String jsonString = readTextFile(getResources().openRawResource(R.raw.movieIds));
+        String jsonString = readTextFile(getResources().openRawResource(R.raw.movie));
         Gson gson = new Gson();
 
         GenreAndMovie[] movies = gson.fromJson(jsonString, GenreAndMovie[].class);
         List<GenreAndMovie> movieList = Arrays.asList(movies);
+        Log.d("MOVIEHOPEITWORKS", movieList.toString());
+
 
 //        movieContent = new MovieContent(movieList);
-//        movieContent.getInformation();
+////        movieContent.getInformation();
     }
 
 

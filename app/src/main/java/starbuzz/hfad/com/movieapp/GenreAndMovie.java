@@ -3,21 +3,24 @@ package starbuzz.hfad.com.movieapp;
 import java.util.ArrayList;
 
 public class GenreAndMovie {
-    private String movie;
+
     private String genre;
-    private ArrayList Movies;
+    private ArrayList<Movie> movies;
 
-    public GenreAndMovie(){
-        this.movie = movie;
+    public GenreAndMovie(String genre, ArrayList<Movie> movies) {
         this.genre = genre;
+        this.movies = movies;
     }
 
-    public String getMovie() {
-        return movie;
+    public GenreAndMovie() {
     }
 
-    public void setMovie(String movie) {
-        this.movie = movie;
+    @Override
+    public String toString() {
+        return "GenreAndMovie{" +
+                "genre='" + genre + '\'' +
+                ", movies=" + movies +
+                '}';
     }
 
     public String getGenre() {
@@ -28,5 +31,11 @@ public class GenreAndMovie {
         this.genre = genre;
     }
 
+    public ArrayList<Movie> getMovies() {
+        return movies;
+    }
 
+    public void setMovies(ArrayList<Movie> movies) {
+        this.movies = movies;
+    }
 }
