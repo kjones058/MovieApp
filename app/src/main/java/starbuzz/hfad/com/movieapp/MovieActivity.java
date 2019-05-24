@@ -9,6 +9,8 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.view.View;
+
+import retrofit2.Call;
 import retrofit2.Retrofit;
 import com.google.gson.Gson;
 import android.widget.Toast;
@@ -99,13 +101,17 @@ public class MovieActivity extends AppCompatActivity {
                 .baseUrl("https://api.themoviedb.org/3/")
                 .build();
         MovieService service = retrofit.create(MovieService.class);
-
+        Call<List<android.graphics.Movie>> movies = service.getMovieById("", Credentials.API_KEY);
+        Call<List<Poster>> poster_path = service.getPosterpath("", Credentials.API_KEY);
+//        movies.request(android.graphics.Movie.class);
     }
+
 
     private void assignId(){
         String jsonString = readTextFile(getResources().openRawResource(R.raw.movie));
         Gson gson = new Gson();
 
+        //need to change the array to the movie class bc its the only one with id
         GenreAndMovie[] movies = gson.fromJson(jsonString, GenreAndMovie[].class);
         List<GenreAndMovie> movieList = Arrays.asList(movies);
         Log.d("MOVIEHOPEITWORKS", movieList.toString());
