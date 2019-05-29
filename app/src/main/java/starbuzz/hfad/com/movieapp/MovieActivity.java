@@ -31,7 +31,7 @@ public class MovieActivity extends AppCompatActivity {
 //    private MovieDetails movieDetails;
     private TextView textViewMovieTitle;
     private ImageView imageViewmovie;
-    private GridView movieGrid;
+    private GridView grid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,23 +42,10 @@ public class MovieActivity extends AppCompatActivity {
         wireWidgets();
         searchMovies();
 
-//        movieGrid.setAdapter(new GridviewAdapter(this, ArrayList<Movie> movies));
+//        grid.setAdapter(new GridviewAdapter(this, movies));
 
-       // textViewMovieTitle.setOnClickListener(this);
 
-//        movieTitle.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                String textView = movieTitle.getText().toString();
-//                Intent intenttextview = new Intent(MovieActivity.this, Content.class);
-//                startActivity(intenttextview);
-//            }
-//        });
-//        @Override
-//        public void onCreate(Bundle savedInstanceState) {
-//            super.onCreate(savedInstanceState);
-//            setContentView(R.layout.activity_movie);
-//
+
 //            GridView gridview = (GridView) findViewById(R.id.gridview);
 //            gridview.setAdapter(new ImageAdapter(this));
 //
@@ -78,7 +65,7 @@ public class MovieActivity extends AppCompatActivity {
     }
 
     private void populateGridView(){
-        movieGrid = findViewById(R.id.movieGrid_dynamic);
+        grid= findViewById(R.id.movieGrid_dynamic);
        // movieGrid.setAdapter(GridviewAdapter);
     }
 
@@ -104,6 +91,8 @@ public class MovieActivity extends AppCompatActivity {
         Call<List<android.graphics.Movie>> movies = service.getMovieById("", Credentials.API_KEY);
         Call<List<Poster>> poster_path = service.getPosterpath("", Credentials.API_KEY);
 //        movies.request(android.graphics.Movie.class);
+
+
     }
 
 
