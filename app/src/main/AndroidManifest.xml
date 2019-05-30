@@ -21,7 +21,6 @@
             android:label="@string/title_activity_movies"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MovieActivity" />
-        <activity android:name=".Content"></activity>
     </application>
 
 </manifest>

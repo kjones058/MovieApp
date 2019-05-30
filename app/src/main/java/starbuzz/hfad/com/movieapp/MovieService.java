@@ -1,6 +1,6 @@
 package starbuzz.hfad.com.movieapp;
 
-import android.graphics.Movie;
+
 
 import java.util.List;
 
@@ -14,7 +14,9 @@ public interface MovieService {
     @GET("/movie/{movie_id}/reviews/videos/release_dates/credits")
     Call<List<Movie>> getMovieById(@Path("movie_id") String id, @Query("api_key") String key);
 
-    Call<List<Poster>> getPosterpath(@Path("poster_path") String path, @Query("api_key") String key);
+  //  Call<List<Poster>> getPosterpath(@Path("poster_path") String path, @Query("api_key") String key);
+
+    //<List<Review>>
 
 
 

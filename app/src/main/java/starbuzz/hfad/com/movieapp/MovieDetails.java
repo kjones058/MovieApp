@@ -7,6 +7,14 @@ public class MovieDetails {
     private String Reviews;
     private String SimilarMovies;
 
+    public MovieDetails(String cast, String crew, String trailers, String reviews, String similarMovies) {
+        Cast = cast;
+        Crew = crew;
+        Trailers = trailers;
+        Reviews = reviews;
+        SimilarMovies = similarMovies;
+    }
+
     public String getCast() {
         return Cast;
     }
