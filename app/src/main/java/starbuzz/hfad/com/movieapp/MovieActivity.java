@@ -46,6 +46,7 @@ public class MovieActivity extends AppCompatActivity {
     private ImageView imageView8;
     private ImageView imageView9;
     private int genre;
+    private int id;
 
 
     @Override
