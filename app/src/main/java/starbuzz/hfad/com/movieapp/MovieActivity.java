@@ -36,6 +36,7 @@ public class MovieActivity extends AppCompatActivity {
     private TextView textViewMovieTitle;
     private ImageView imageViewmovie;
     private GridView grid;
+    private Movie[] movies;
     private ImageView imageView1;
     private ImageView imageView2;
     private ImageView imageView3;
@@ -55,27 +56,39 @@ public class MovieActivity extends AppCompatActivity {
         setContentView(R.layout.activity_movie);
         genre = getIntent().getIntExtra("genre", 0);
 
-        ArrayList<Movie> movies;
+
         wireWidgets();
-        searchMovies();
+      //  searchMovies();
 
 //        private int[] images = {imageView1, imageView2, imageView3, imageView4, imageView5, imageView6, imageView7, imageView8, imageView9};
-//
-//        imageView1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
-//                String item = (String) imageView1.getItemAtPosition(position);
-//                Toast.makeText(MovieActivity.this, "You selected : " + item,Toast.LENGTH_SHORT).show();
-//
-//                Intent intentContent = new Intent( MovieActivity.this, ContentActivity.class);
-//                intentContent.putExtra("Movie", position);
-//                startActivity(intentContent);
-//            }
-//        });
-
-        searchMovies();
         importPoster();
-        assignDetails();
+        imageView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String id = movies[0].getId();
+                Toast.makeText(MovieActivity.this, "You selected : " + id,Toast.LENGTH_SHORT).show();
+
+                Intent intentContent = new Intent( MovieActivity.this, ContentActivity.class);
+                intentContent.putExtra("Movie", id);
+                startActivity(intentContent);
+            }
+        });
+
+        imageView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String id = movies[1].getId();
+                Toast.makeText(MovieActivity.this, "You selected : " + id,Toast.LENGTH_SHORT).show();
+
+                Intent intentContent = new Intent( MovieActivity.this, ContentActivity.class);
+                intentContent.putExtra("Movie", id);
+                startActivity(intentContent);
+            }
+        });
+
+        //searchMovies();
+
+        //assignDetails();
 
 
     }
@@ -102,7 +115,7 @@ public class MovieActivity extends AppCompatActivity {
         //Movie[] movies = gson.fromJson(jsonString, Movie[].class);
         //Log.d("MOVIES THINGY", "importPoster: " + movies.length);
         List<Movie> movies1 =         assignId().get(genre).getMovies();
-        Movie[] movies = movies1.toArray(new Movie[movies1.size()]);
+        movies = movies1.toArray(new Movie[movies1.size()]);
 
         Movie movie1 = movies[0];
         Movie movie2 = movies[1];
@@ -139,7 +152,7 @@ public class MovieActivity extends AppCompatActivity {
 //        return movieList2;
     }
 
-    private void searchMovies() {
+    private void searchMovies(String id) {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://api.themoviedb.org/3/")
                 .addConverterFactory(GsonConverterFactory.create())
