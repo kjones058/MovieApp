@@ -1,12 +1,14 @@
 package starbuzz.hfad.com.movieapp;
 
+import java.util.Arrays;
 public class Movie {
     private String id;
     private String movie;
     private String poster_path;
+//    private Arrays Movie;
 
     public Movie (){
-
+//        Movie = [9];
     }
 
     public String getId() {

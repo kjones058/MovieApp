@@ -1,15 +1,17 @@
 package starbuzz.hfad.com.movieapp;
 
 public class MovieDetails {
+    private String Description;
     private String Cast;
     private String Crew;
     private String Trailers;
     private String Reviews;
     private String SimilarMovies;
 
-    public MovieDetails(String cast, String crew, String trailers, String reviews, String similarMovies) {
+    public MovieDetails(String cast, String crew, String description, String trailers, String reviews, String similarMovies) {
         Cast = cast;
         Crew = crew;
+        Description = description;
         Trailers = trailers;
         Reviews = reviews;
         SimilarMovies = similarMovies;
@@ -29,6 +31,14 @@ public class MovieDetails {
 
     public void setCrew(String crew) {
         Crew = crew;
+    }
+
+    public String getDescription() {
+        return Description;
+    }
+
+    public void setDescription(String description) {
+        Description = description;
     }
 
     public String getTrailers() {
@@ -53,5 +63,17 @@ public class MovieDetails {
 
     public void setSimilarMovies(String similarMovies) {
         SimilarMovies = similarMovies;
+    }
+
+    @Override
+    public String toString() {
+        return "MovieDetails{" +
+                "Description='" + Description + '\'' +
+                ", Cast='" + Cast + '\'' +
+                ", Crew='" + Crew + '\'' +
+                ", Trailers='" + Trailers + '\'' +
+                ", Reviews='" + Reviews + '\'' +
+                ", SimilarMovies='" + SimilarMovies + '\'' +
+                '}';
     }
 }

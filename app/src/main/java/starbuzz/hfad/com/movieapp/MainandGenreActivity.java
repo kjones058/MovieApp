@@ -49,11 +49,11 @@ public class MainandGenreActivity extends AppCompatActivity {
 //            }
 //        });
 
-        list.add("Romance");
-        list.add("Comedy");
+        list.add("Drama");
         list.add("Horror/Thriller");
         list.add("Fantasy/Science Fiction");
-        list.add("Drama");
+        list.add("Romance");
+        list.add("Comedy");
 
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getApplicationContext(),
@@ -70,7 +70,9 @@ public class MainandGenreActivity extends AppCompatActivity {
                 Toast.makeText(MainandGenreActivity.this, "You selected : " + item,Toast.LENGTH_SHORT).show();
 
                 Intent intentMovies = new Intent(MainandGenreActivity.this, MovieActivity.class);
+                intentMovies.putExtra("genre", position);
                 startActivity(intentMovies);
+
 
 
             }
