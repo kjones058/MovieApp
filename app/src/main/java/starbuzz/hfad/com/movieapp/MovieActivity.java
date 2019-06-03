@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.AdapterView;
-import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.view.View;
@@ -31,11 +30,7 @@ import java.util.List;
 
 public class MovieActivity extends AppCompatActivity {
 
-//    private MovieContent movieContent;
-//    private MovieDetails movieDetails;
     private TextView textViewMovieTitle;
-    private ImageView imageViewmovie;
-    private GridView grid;
     private Movie[] movies;
     private ImageView imageView1;
     private ImageView imageView2;
@@ -65,26 +60,103 @@ public class MovieActivity extends AppCompatActivity {
         imageView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String id = movies[0].getId();
-                Toast.makeText(MovieActivity.this, "You selected : " + id,Toast.LENGTH_SHORT).show();
+                String movie = movies[0].getMovie();
+                Toast.makeText(MovieActivity.this, "You selected : " + movie,Toast.LENGTH_SHORT).show();
 
                 Intent intentContent = new Intent( MovieActivity.this, ContentActivity.class);
-                intentContent.putExtra("Movie", id);
+                intentContent.putExtra("Movie", movie);
                 startActivity(intentContent);
             }
         });
-
         imageView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String id = movies[1].getId();
-                Toast.makeText(MovieActivity.this, "You selected : " + id,Toast.LENGTH_SHORT).show();
+                String movie = movies[1].getMovie();
+                Toast.makeText(MovieActivity.this, "You selected : " + movie,Toast.LENGTH_SHORT).show();
 
                 Intent intentContent = new Intent( MovieActivity.this, ContentActivity.class);
-                intentContent.putExtra("Movie", id);
+                intentContent.putExtra("Movie", movie);
                 startActivity(intentContent);
             }
         });
+        imageView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String movie = movies[2].getMovie();
+                Toast.makeText(MovieActivity.this, "You selected : " + movie,Toast.LENGTH_SHORT).show();
+
+                Intent intentContent = new Intent( MovieActivity.this, ContentActivity.class);
+                intentContent.putExtra("Movie", movie);
+                startActivity(intentContent);
+            }
+        });
+        imageView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String movie = movies[3].getMovie();
+                Toast.makeText(MovieActivity.this, "You selected : " + movie,Toast.LENGTH_SHORT).show();
+
+                Intent intentContent = new Intent( MovieActivity.this, ContentActivity.class);
+                intentContent.putExtra("Movie", movie);
+                startActivity(intentContent);
+            }
+        });
+        imageView5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String movie = movies[4].getMovie();
+                Toast.makeText(MovieActivity.this, "You selected : " + movie,Toast.LENGTH_SHORT).show();
+
+                Intent intentContent = new Intent( MovieActivity.this, ContentActivity.class);
+                intentContent.putExtra("Movie", movie);
+                startActivity(intentContent);
+            }
+        });
+        imageView6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String movie = movies[5].getMovie();
+                Toast.makeText(MovieActivity.this, "You selected : " + movie,Toast.LENGTH_SHORT).show();
+
+                Intent intentContent = new Intent( MovieActivity.this, ContentActivity.class);
+                intentContent.putExtra("Movie", movie);
+                startActivity(intentContent);
+            }
+        });
+        imageView7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String movie = movies[6].getMovie();
+                Toast.makeText(MovieActivity.this, "You selected : " + movie,Toast.LENGTH_SHORT).show();
+
+                Intent intentContent = new Intent( MovieActivity.this, ContentActivity.class);
+                intentContent.putExtra("Movie", movie);
+                startActivity(intentContent);
+            }
+        });
+        imageView8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String movie = movies[7].getMovie();
+                Toast.makeText(MovieActivity.this, "You selected : " + movie,Toast.LENGTH_SHORT).show();
+
+                Intent intentContent = new Intent( MovieActivity.this, ContentActivity.class);
+                intentContent.putExtra("Movie", movie);
+                startActivity(intentContent);
+            }
+        });
+        imageView9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String movie = movies[8].getId();
+                Toast.makeText(MovieActivity.this, "You selected : " + movie,Toast.LENGTH_SHORT).show();
+
+                Intent intentContent = new Intent( MovieActivity.this, ContentActivity.class);
+                intentContent.putExtra("Movie", movie);
+                startActivity(intentContent);
+            }
+        });
+
 
         //searchMovies();
 

@@ -1,10 +1,16 @@
 package starbuzz.hfad.com.movieapp;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 public class Movie {
     private String id;
     private String movie;
     private String poster_path;
+    private String description;
+    private String cast;
+    private String director;
+    private String runtime;
+    private ArrayList<Movie> movieId;
 //    private Arrays Movie;
 
     public Movie (){
@@ -31,8 +37,48 @@ public class Movie {
         return poster_path;
     }
 
+    public ArrayList<Movie> getMovieId() {
+        return movieId;
+    }
+
+    public void setMovieId(ArrayList<Movie> movieId) {
+        this.movieId = movieId;
+    }
+
     public void setPoster_path(String poster_path) {
         this.poster_path = poster_path;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getCast() {
+        return cast;
+    }
+
+    public void setCast(String cast) {
+        this.cast = cast;
+    }
+
+    public String getDirector() {
+        return director;
+    }
+
+    public void setDirector(String director) {
+        this.director = director;
+    }
+
+    public String getRuntime() {
+        return runtime;
+    }
+
+    public void setRuntime(String runtime) {
+        this.runtime = runtime;
     }
 
     @Override
@@ -41,6 +87,11 @@ public class Movie {
                 "id='" + id + '\'' +
                 ", movie='" + movie + '\'' +
                 ", poster_path='" + poster_path + '\'' +
+                ", description='" + description + '\'' +
+                ", cast='" + cast + '\'' +
+                ", director='" + director + '\'' +
+                ", runtime='" + runtime + '\'' +
+                ", movieId=" + movieId +
                 '}';
     }
 }

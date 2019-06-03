@@ -4,47 +4,83 @@
     "movies": [
       {"movie":"The Sun is Also A Star",
         "id":"508791",
-        "poster_path":"/pYfI62qgone3Ai0tzgxtQq7chDE.jpg"
+        "poster_path":"/pYfI62qgone3Ai0tzgxtQq7chDE.jpg",
+        "description": "Two young New Yorkers begin to fall in love over the course of a single day, as a series of potentially life-altering meetings loom over their heads - hers concerning her family’s deportation to Jamaica, and his concerning an education at Dartmouth.",
+        "cast": "Yara Shahidi, Charles Melton, Gbenga Akinnagbe, Miriam A. Hyman, Jake Choi",
+        "director": "Ry Russo-Young",
+        "runtime": "1h 40m"
       },
 
       {"movie": "Fantastic Beasts:The Crimes of Grindelwald",
         "id":"338952",
-        "poster_path":"/fMMrl8fD9gRCFJvsx0SuFwkEOop.jpg"
+        "poster_path":"/fMMrl8fD9gRCFJvsx0SuFwkEOop.jpg",
+        "description": "Gellert Grindelwald has escaped imprisonment and has begun gathering followers to his cause—elevating wizards above all non-magical beings. The only one capable of putting a stop to him is the wizard he once called his closest friend, Albus Dumbledore. However, Dumbledore will need to seek help from the wizard who had thwarted Grindelwald once before, his former student Newt Scamander, who agrees to help, unaware of the dangers that lie ahead. Lines are drawn as love and loyalty are tested, even among the truest friends and family, in an increasingly divided wizarding world.",
+        "cast": "Eddie Redmayne, Katherine Waterston, Alison Sudol, Johnny Depp, Jude Law",
+        "director": "David Yates",
+        "runtime": "2h 14m"
       },
 
       {"movie":"Five Feet Apart",
         "id":"527641",
-        "poster_path":"/kreTuJBkUjVWePRfhHZuYfhNE1T.jpg"
+        "poster_path":"/kreTuJBkUjVWePRfhHZuYfhNE1T.jpg",
+        "description": "Seventeen-year-old Stella spends most of her time in the hospital as a cystic fibrosis patient. Her life is full of routines, boundaries and self-control -- all of which get put to the test when she meets Will, an impossibly charming teen who has the same illness. There's an instant flirtation, though restrictions dictate that they must maintain a safe distance between them. As their connection intensifies, so does the temptation to throw the rules out the window and embrace that attraction.",
+        "cast": "Haley Lu Richardson, Cole Sprouse, Moises Arias, Kimberly Herbert Gregory, Parminder Nagra",
+        "director": "Justin Baldoni",
+        "runtime": "1h 56m"
       },
       {
         "movie":"Miss Bala",
         "id":"500852",
-        "poster_path":"/ae9yrSAS7nLZPbbkOm61pSuIqeo.jpg"
+        "poster_path":"/ae9yrSAS7nLZPbbkOm61pSuIqeo.jpg",
+        "description": "Gloria finds a power she never knew she had when she is drawn into a dangerous world of cross-border crime. Surviving will require all of her cunning, inventiveness, and strength.",
+        "cast": "",
+        "director": "",
+        "runtime": ""
       },
       {
         "movie":"A Star is Born",
         "id":"332562",
-        "poster_path":"/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg"
+        "poster_path":"/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "description": "Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "cast": "Gina Rodriguez, Ismael Cruz Cordova, Anthony Mackie, Cristina Rodlo, Aislinn Derbez",
+        "director": "Gerardo Naranjo",
+        "runtime": "1h 44m"
       },
       {
         "movie":"First Man",
         "id":"369972",
-        "poster_path":"/i91mfvFcPPlaegcbOyjGgiWfZzh.jpg"
+        "poster_path":"/i91mfvFcPPlaegcbOyjGgiWfZzh.jpg",
+        "description": "A look at the life of the astronaut, Neil Armstrong, and the legendary space mission that led him to become the first man to walk on the Moon on July 20, 1969.",
+        "cast": "Ryan Gosling, Claire Foy, Jason Clarke, Kyle Chandler, Corey Stoll ",
+        "director": "Damien Chazelle",
+        "runtime": "2h 21m"
       },
       {
-        "movie":"Bohemein Rapsody",
+        "movie":"Bohemian Rapsody",
         "id":"424694",
-        "poster_path":"/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg"
+        "poster_path":"/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg",
+        "description": "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.",
+        "cast": "Rami Malek, Gwilym Lee, ben Hardy, Joseph Mazzello, Lucy Bonyton, ",
+        "director": "Bryan Singer",
+        "runtime": "2h 15m"
       },
       {
         "movie":"Adrift",
         "id":"429300",
-        "poster_path":"/5gLDeADaETvwQlQow5szlyuhLbj.jpg"
+        "poster_path":"/5gLDeADaETvwQlQow5szlyuhLbj.jpg",
+        "description": "A true story of survival, as a young couple's chance encounter leads them first to love, and then on the adventure of a lifetime as they face one of the most catastrophic hurricanes in recorded history.",
+        "cast": "Shailene Woodley, Sam Claflin, Jeffrey Thomas, Elizabeth Hawthorne, Grace Palmer",
+        "director": "Baltasar Kormakur",
+        "runtime": "1h 36m"
       },
       {
         "movie":"A Simple Favor",
         "id":"484247",
-        "poster_path":"/5EJWZQ8dh99hfgXP9zAD5Ak5Hrn.jpg"
+        "poster_path":"/5EJWZQ8dh99hfgXP9zAD5Ak5Hrn.jpg",
+        "description": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Stephanie undertakes an investigation that will dive deep into Emily's cloudy past.",
+        "cast": "Anna Kendrick, Blake Lively, Henry Golding, Andrew Rannells, Rupert Friend",
+        "director": "Paul Feig",
+        "runtime": "1h 57m"
       }
 
     ]
@@ -55,47 +91,83 @@
       {
         "movie":"It",
         "id":"346364",
-        "poster_path":"/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg"
+        "poster_path":"/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg",
+        "description": "In a small town in Maine, seven children known as The Losers Club come face to face with life problems, bullies and a monster that takes the shape of a clown called Pennywise.",
+        "cast": "Jaeden Martell, Sophia Lillis, Finn Wolfhard, Jack Dylan Gazer, Jeremy Ray Taylor",
+        "director": "Andy Muschietti",
+        "runtime": "2h 15m"
       },
       {
         "movie":"The New Mutants",
         "id":"340102",
-        "poster_path":"/5AI4Y7KUTG2WDyuBsqeClLTind5.jpg"
+        "poster_path":"/5AI4Y7KUTG2WDyuBsqeClLTind5.jpg",
+        "description": "The story of the New Mutants, a team of mutant heroes comprised of the first graduates from Charles Xavier's school.",
+        "cast": "Anya Taylor-Joy, Maisie Williams, Charlie Heaton, Blu Hunt, Henry Zaga",
+        "director": "Josh Boone",
+        "runtime": ""
       },
       {
         "movie":"Escape Room",
         "id":"522681",
-        "poster_path":"/8Ls1tZ6qjGzfGHjBB7ihOnf7f0b.jpg"
+        "poster_path":"/8Ls1tZ6qjGzfGHjBB7ihOnf7f0b.jpg",
+        "description": "Six strangers find themselves in circumstances beyond their control, and must use their wits to survive.",
+        "cast": "Taylor Russell, Logan Miller, Jay Ellis, Tyler Labine, Deborah Ann Woll",
+        "director": "Adam Robitel",
+        "runtime": "1h 39ma"
       },
       {
         "movie":"Hotel Mumbai",
         "id":"416144",
-        "poster_path":"/4UM3WBgWvAXi9CaBXJjwAMnEY05.jpg"
+        "poster_path":"/4UM3WBgWvAXi9CaBXJjwAMnEY05.jpg",
+        "description": "The true story of the Taj Hotel terrorist attack in Mumbai. Hotel staff risk their lives to keep everyone safe as people make unthinkable sacrifices to protect themselves and their families. In 2008 the Taj Mahal Palace Hotel in Mumbai becomes the target of a deadly attack by Pakistani militants. Dozens of people are held hostage as fire races through the building.",
+        "cast": "Dev Patel, Nazanin Boniadi, Armie Hammer, Jason Isaacs, Anupam Kher",
+        "director": "Anthony Maras",
+        "runtime": "2h 5m"
       },
       {
         "movie":"Us",
         "id":"458723",
-        "poster_path":"/ux2dU1jQ2ACIMShzB3yP93Udpzc.jpg"
+        "poster_path":"/ux2dU1jQ2ACIMShzB3yP93Udpzc.jpg",
+        "description": "Husband and wife Gabe and Adelaide Wilson take their kids to their beach house expecting to unplug and unwind with friends. But as night descends, their serenity turns to tension and chaos when some shocking visitors arrive uninvited.",
+        "cast": "Lupita Nyong'o, Winston Duke, Evan Alex, Shahidi Wright Joseph, Elisabeth Moss",
+        "director": "Jordan Peele",
+        "runtime": "1h 56m"
       },
       {
         "movie":"The Curse of La Llorona",
         "id":"480414",
-        "poster_path":"/jhZlXSnFUpNiLAek9EkPrtLEWQI.jpg"
+        "poster_path":"/jhZlXSnFUpNiLAek9EkPrtLEWQI.jpg",
+        "description": "A social worker dealing with the disappearance of two children fears for her own family after beginning the investigation.",
+        "cast": "Linda Cardellini, Raymond Cruz, Marisol Ramirez, Patricia Velasquez, Sean Patrick Thomas",
+        "director": "Michael Chaves",
+        "runtime": "1h 33m"
       },
       {
         "movie":"Happy Death Day 2U",
         "id":"512196",
-        "poster_path":"/4tdnePOkOOzwuGPEOAHp8UA4vqx.jpg"
+        "poster_path":"/4tdnePOkOOzwuGPEOAHp8UA4vqx.jpg",
+        "description": "Collegian Tree Gelbman wakes up in horror to learn that she's stuck in a parallel universe. Her boyfriend Carter is now with someone else, and her friends and fellow students seem to be completely different versions of themselves. When Tree discovers that Carter's roommate has been altering time, she finds herself once again the target of a masked killer. When the psychopath starts to go after her inner circle, Tree soon realizes that she must die over and over again to save everyone.",
+        "cast": "Jessica Rothe, Israel Broussard, Phi Vu, Suraj Sharma, Sarah Yarkin",
+        "director": "Christopher Landon",
+        "runtime": "1h 40m"
       },
       {
         "movie":"Get Out",
         "id":"419430",
-        "poster_path":"/1SwAVYpuLj8KsHxllTF8Dt9dSSX.jpg"
+        "poster_path":"/1SwAVYpuLj8KsHxllTF8Dt9dSSX.jpg",
+        "description": "Chris and his girlfriend Rose go upstate to visit her parents for the weekend. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.",
+        "cast": "Daniel Kaluuya, Allison Williams, Catherine Keener, Bradley Whitford, Caleb Landry Jones",
+        "director": "Jordan Peele",
+        "runtime": "1h 44m"
       },
       {
         "movie":"The Nun",
         "id":"439079",
-        "poster_path":"/sFC1ElvoKGdHJIWRpNB3xWJ9lJA.jpg"
+        "poster_path":"/sFC1ElvoKGdHJIWRpNB3xWJ9lJA.jpg",
+        "description": "When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate. Together they uncover the order’s unholy secret. Risking not only their lives but their faith and their very souls, they confront a malevolent force in the form of the same demonic nun that first terrorized audiences in “The Conjuring 2” as the abbey becomes a horrific battleground between the living and the damned.",
+        "cast": "Bonnie Aarons, Taissa Farmiga, Demian Bichir, Jonas Bloquet, Charlotte Hope",
+        "director": "Corin Hardy",
+        "runtime": "1h 36m"
       }
     ]
   },
@@ -105,47 +177,84 @@
       {
         "movie":"Black Panther",
         "id":"284054",
-        "poster_path":"/uxzzxijgPIY7slzFvMotPv8wjKA.jpg"
+        "poster_path":"/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+        "description": "King T'Challa returns home from America to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne by factions within his own country as well as without. Using powers reserved to Wakandan kings, T'Challa assumes the Black Panther mantel to join with girlfriend Nakia, the queen-mother, his princess-kid sister, members of the Dora Milaje (the Wakandan 'special forces') and an American secret agent, to prevent Wakanda from being dragged into a world war.",
+        "cast": "Chadwick Boseman, Micahel B. Jordan, Lupita Nyong'o, Danai Gurira, Martin Freeman",
+        "director": "Ryan Coogler",
+        "runtime": "2h 14m"
       },
       {
         "movie":"Avengers: Infinity War",
         "id":"299536",
-        "poster_path":"/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
+        "poster_path":"/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+        "description": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+        "cast": "Robert Downey Jr., Chris Hemsworth, Chris Evans, Mark Ruffalo, Scarlett Johansson",
+        "director": "Joe & Anthony Russo",
+        "runtime": "2h 29m"
       },
       {
         "movie":"Spider-Man Homecoming",
         "id":"315635",
-        "poster_path":"/nogV4th2P5QWYvQIMiWHj4CFLU9.jpg"},
+        "poster_path":"/nogV4th2P5QWYvQIMiWHj4CFLU9.jpg",
+        "description": "Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, with fighting crime as his superhero alter ego Spider-Man as a new threat, the Vulture, emerges.",
+        "cast": "Tom Holland, Micahel Keaton, Robert Downey Jr., Marisa Tomei, Jon Favreau",
+        "director": "Jon Watts",
+        "runtime": "2h 13m"
+      },
       {
         "movie":"Spider-Man: Far From Home",
         "id":"429617",
-        "poster_path":"/nogV4th2P5QWYvQIMiWHj4CFLU9.jpg"
+        "poster_path":"/nogV4th2P5QWYvQIMiWHj4CFLU9.jpg",
+        "description": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
+        "cast": "Tom Holland, Jake Gyllenhaal,, Zenday, Smauel L. Jackson, Cobie Smulders",
+        "director": "Jon Watts",
+        "runtime": "2h 15m"
       },
       {
         "movie":"Captain Marvel",
         "id":"299537",
-        "poster_path":"/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg"
+        "poster_path":"/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+        "description": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+        "cast": "Brie Larson, Samuel L. Jackson, Ben Mendelsohn, Jade Law, Annette Bening",
+        "director": "Anna Boden & Ryan Fleck",
+        "runtime": "2h 4m"
       },
       {
         "movie":"Avengers: Endgame",
         "id":"299534",
-        "poster_path":"/or06FN3Dka5tukK1e9sl16pB3iy.jpg"
+        "poster_path":"/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+        "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+        "cast": "Robert Downey Jr., Chris Hemsworth, Chris Evans, Mark Ruffalo, Scarlett Johansson",
+        "director": "Joe & Anthony Russo",
+        "runtime": "3h 1m"
       },
       {
         "movie":"Solo: A Star Wars Story",
         "id":"348350",
-        "poster_path":"/3IGbjc5ZC5yxim5W0sFING2kdcz.jpg"
+        "poster_path":"/3IGbjc5ZC5yxim5W0sFING2kdcz.jpg",
+        "description": "",
+        "cast": "Alden Ehrenreich, Joonas Suotamo, Woody Harrelson, Emilia Clarke, Donald Glover" ,
+        "director": "Ron Howard",
+        "runtime": "2h 15m"
       },
       {
         "movie":"Star Wars: The Last Jedi",
         "id":"181808",
-        "poster_path":"/kOVEVeg59E0wsnXmF9nrh6OmWII.jpg"
+        "poster_path":"/kOVEVeg59E0wsnXmF9nrh6OmWII.jpg",
+        "description": "Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian.",
+        "cast": "Mark Hamill, Carrie Fisher, AdamDriver, Daisy Ridley, John Boyega",
+        "director": "Rian Johnson",
+        "runtime": "2h 32m"
       },
       {
         "movie":"Thor: Ragnarok",
         "id":"284053",
-        "poster_path":"/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg"
-      },
+        "poster_path":"/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+        "description": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of an all-powerful new threat, the ruthless Hela.",
+        "cast": "Chris Hemsworth, Mark Ruffalo, Tom Hoddleston, Cate Blanchet, Cate Blanchet, Tessa Thompson",
+        "director": "Taika Waititi",
+        "runtime": "2h 11m"
+      }
     ]
   },
   {
@@ -154,47 +263,83 @@
       {
         "movie": "The Fault in Our Stars",
         "id":"222935",
-        "poster_path":"/sc6XLX6J714LDkVV3Ys3clgypQS.jpg"
+        "poster_path":"/sc6XLX6J714LDkVV3Ys3clgypQS.jpg",
+        "description": "Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a patient named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel's story is about to be completely rewritten.",
+        "cast": "Shailene Woodley, Ansel Elgort, Nat Wolff, Laura Dern, Sam Trammell",
+        "director": "Josh Boone",
+        "runtime": "2h 5m"
       },
       {
         "movie":"The Notebook",
         "id":"11036",
-        "poster_path":"/gMfstesBXKdsHToAUXVPHujUDfb.jpg"
+        "poster_path":"/gMfstesBXKdsHToAUXVPHujUDfb.jpg",
+        "description": "An epic love story centered around an older man who reads aloud to a woman with Alzheimer's. From a faded notebook, the old man's words bring to life the story about a couple who is separated by World War II, and is then passionately reunited, seven years later, after they have taken different paths.",
+        "cast": "Rachel McAdams, Ryan Gosling, Gena Rowlands, James Garner, Sma Shephard ",
+        "director": "Nick Cassavetes",
+        "runtime": "2h 3m"
       },
       {
         "movie":"A Star is Born",
         "id":"332562",
-        "poster_path":"/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg"
+        "poster_path":"/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+        "description": "Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+        "cast": "Bradley Cooper, Lady Gaga, Sam Elliot, Andrew Dice Clay, Rafi Gavron",
+        "director": "Bradley Cooper",
+        "runtime": "2h 15m"
       },
       {
-        "movie":"Crazy Rich Asains",
+        "movie":"Crazy Rich Asians",
         "id":"455207",
-        "poster_path":"/1XxL4LJ5WHdrcYcihEZUCgNCpAW.jpg"
+        "poster_path":"/1XxL4LJ5WHdrcYcihEZUCgNCpAW.jpg",
+        "description":" An American-born Chinese economics professor accompanies her boyfriend to Singapore for his best friend's wedding, only to get thrust into the lives of Asia's rich and famous.",
+        "cast": "Constance Wu, Henry Golding, Michelle Yeoh, Gemma Chan, Lisa Lu",
+        "director": "Jon M. Chu",
+        "runtime": "2h 1m"
       },
       {
         "movie":"96",
         "id":"441717",
-        "poster_path":"/nrVloCa2hCFOztRF1DZU2jnWIiQ.jpg"
+        "poster_path":"/nrVloCa2hCFOztRF1DZU2jnWIiQ.jpg",
+        "description": "Ram is a photographer and nature lover who travels all around India capturing moments. On a chance visit to his hometown Tanjavur, he goes into his school and begins to walk down memory lane to 1994 when he was a student harboring feelings for his classmate Janu.",
+        "cast": "Vijay Sethupathi, trisha Krishan, Janagaraj, Aadukalam Murugadoss, Bagavathi Perumal",
+        "director": "C. Prem Kumar",
+        "runtime": "2h 39m"
       },
       {
         "movie":"To All the Boys I've Loved Before",
         "id":"466282",
-        "poster_path":"/hKHZhUbIyUAjcSrqJThFGYIR6kI.jpg"
+        "poster_path":"/hKHZhUbIyUAjcSrqJThFGYIR6kI.jpg",
+        "description": "Lara Jean's love life goes from imaginary to out of control when her secret letters to every boy she's ever fallen for are mysteriously mailed out.",
+        "cast": "Lana Condor, Noah Centineo, Janel Parrish, Anna Cathcart, Madeleine Arthur",
+        "director": "Susan Johnson",
+        "runtime": "1h 39m"
       },
       {
         "movie":"La La Land",
         "id":"313369",
-        "poster_path":"/hKHZhUbIyUAjcSrqJThFGYIR6kI.jpg"
+        "poster_path":"/hKHZhUbIyUAjcSrqJThFGYIR6kI.jpg",
+        "description": "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.",
+        "cast": "Ryan Gosling, Emma Stone, John Legend, Rosemarie DeWitt, J.K. Simmons",
+        "director": "Damien Chazelle",
+        "runtime": "2h 9m"
       },
       {
         "movie":"The Big Sick",
         "id":"416477",
-        "poster_path":"/qquEFkFbQX1i8Bal260EgGCnZ0f.jpg"
+        "poster_path":"/qquEFkFbQX1i8Bal260EgGCnZ0f.jpg",
+        "description": "Pakistan-born comedian Kumail Nanjiani and grad student Emily Gardner fall in love but struggle as their cultures clash. When Emily contracts a mysterious illness, Kumail finds himself forced to face her feisty parents, his family's expectations, and his true feelings.",
+        "cast": "Kumail Nanjiani, Zoe Kazan, Holly Hunter, Ray Romano, Anupam Kher",
+        "director": "Micahel Showalter",
+        "runtime": "2h 0m"
       },
       {
         "movie":"Aladdin",
         "id":"420817",
-        "poster_path":"/uF3zJmoYQUab5tiUfUECKpkkjIJ.jpg"
+        "poster_path":"/uF3zJmoYQUab5tiUfUECKpkkjIJ.jpg",
+        "description": "A kindhearted street urchin named Aladdin embarks on a magical adventure after finding a lamp that releases a wisecracking genie while a power-hungry Grand Vizier vies for the same lamp that has the power to make their deepest wishes come true.",
+        "cast": "Mena Massoud, Naomi Scott, Will Smith, Marwan Kenzari, Navid Negahban",
+        "director": "Guy Ritchie",
+        "runtime": "2h 8m"
       }
     ]
   },
@@ -202,49 +347,85 @@
     "genre":"Comedy",
     "movies":[
       {
-        "movie":"Crazy Rich Asains",
+        "movie":"Crazy Rich Asians",
         "id":"455207",
-        "poster_path":"/1XxL4LJ5WHdrcYcihEZUCgNCpAW.jpg"
+        "poster_path":"/1XxL4LJ5WHdrcYcihEZUCgNCpAW.jpg",
+        "description": "An American-born Chinese economics professor accompanies her boyfriend to Singapore for his best friend's wedding, only to get thrust into the lives of Asia's rich and famous.",
+        "cast": "Constance Wu, Henry Golding, Michelle Yeoh, Gemma Chan, Lisa Lu",
+        "director": "Jon M. Chu",
+        "runtime": "2h 1m"
       },
       {
         "movie":"The Spy Who Dumped Me",
         "id":"454992",
-        "poster_path":"/tpPERI5i6yjT73jYWyZ9iWltQ9L.jpg"
+        "poster_path":"/tpPERI5i6yjT73jYWyZ9iWltQ9L.jpg",
+        "description": "Audrey and Morgan, two thirty-year-old best friends in Los Angeles, are thrust unexpectedly into an international conspiracy when Audrey’s ex-boyfriend shows up at their apartment with a team of deadly assassins on his trail.",
+        "cast": "Mila Kunis, Kate Mckinnon, Justin Therouz, Sam Heughan, Lolly Adefope",
+        "director": "Susanna Fogel",
+        "runtime": "1 57m"
       },
       {
         "movie": "Tag",
         "id":"455980",
-        "poster_path":"/eXXpuW2xaq5Aen9N5prFlARVIvr.jpg"
+        "poster_path":"/eXXpuW2xaq5Aen9N5prFlARVIvr.jpg",
+        "description": "For one month every year, five highly competitive friends hit the ground running in a no-holds-barred game of tag they’ve been playing since the first grade. This year, the game coincides with the wedding of their only undefeated player, which should finally make him an easy target. But he knows they’re coming...and he’s ready.",
+        "cast": "Jeremy Renner, Jon Hamm, Ed Helms, Jake Johnson, Annabelle Wallis",
+        "director": "Jeff Tomsic",
+        "runtime": "1h 40m"
       },
       {
         "movie":"Ralph Breaks the Internet",
         "id":"404368",
-        "poster_path":"/lvfIaThG5HA8THf76nghKinjjji.jpg"
+        "poster_path":"/lvfIaThG5HA8THf76nghKinjjji.jpg",
+        "description": "Video game bad guy Ralph and fellow misfit Vanellope von Schweetz must risk it all by traveling to the World Wide Web in search of a replacement part to save Vanellope's video game, \"Sugar Rush.\" In way over their heads, Ralph and Vanellope rely on the citizens of the internet -- the netizens -- to help navigate their way, including an entrepreneur named Yesss, who is the head algorithm and the heart and soul of trend-making site BuzzzTube.",
+        "cast": "John C. Reilly, Sarah Silverman, Gal Gadot, Taraji P. Henson, Jack McBrayer",
+        "director": "Phil Johnston",
+        "runtime": "1h 52m"
       },
       {
         "movie":"Life of Party",
         "id":"399796",
-        "poster_path":"/749iUAWQWeutQuTd9excjmigecw.jpg"
+        "poster_path":"/749iUAWQWeutQuTd9excjmigecw.jpg",
+        "description": "Dumped by her husband, longtime housewife Deanna turns regret into reset by going back to college. Winding up at the same school as her daughter, Deanna plunges headlong into the campus experience – embracing fun, freedom and frat boys.",
+        "cast": "Melissa McCarthy, Molly Gordon, Gillian Jacobs, Maya Rudolph, Julie Bowen",
+        "director": "Ben Falcone",
+        "runtime": "1h 45m"
       },
       {
         "movie":"Shazam",
         "id":"287947",
-        "poster_path":"/xnopI5Xtky18MPhK40cZAGAOVeV.jpg"
+        "poster_path":"/xnopI5Xtky18MPhK40cZAGAOVeV.jpg",
+        "description": "A boy is given the ability to become an adult superhero in times of need with a single magic word.",
+        "cast": "Zachary Levi, Mark Strong, Asher Angel, Jack Dylan Grazer, Adam Brody",
+        "director": "David F. Sandberg",
+        "runtime": "2h 12m"
       },
       {
         "movie":"Isn't it Romantic",
         "id":"449563",
-        "poster_path":"/5xNBYXuv8wqiLVDhsfqCOr75DL7.jpg"
+        "poster_path":"/5xNBYXuv8wqiLVDhsfqCOr75DL7.jpg",
+        "description": "For a long time, Natalie, an Australian architect living in New York City, had always believed that what she had seen in rom-coms is all fantasy. But after thwarting a mugger at a subway station only to be knocked out while fleeing, Natalie wakes up and discovers that her life has suddenly become her worst nightmare—a romantic comedy—and she is the leading lady.",
+        "cast": "Rebel Wilson, Adam Devine, Liam Hemsworth, Priyanka Chopra, Betty Gilpin ",
+        "director": "Todd Strauss-Schulson",
+        "runtime": "1h 29m"
       },
       {
         "movie":"Spies in Disguise",
         "id":"431693",
-        "poster_path":"/76LxszwANLfgzxydpnp132XkKVY.jpg"
+        "poster_path":"/76LxszwANLfgzxydpnp132XkKVY.jpg",
+        "description": "Lance and Walter. One is a super cool and charming spy, and the other invents the super cool gadgets Lance uses. When an event happens, they must learn to rely on each other like never before in order to save the world.",
+        "cast": "Will Smith, Tom Holland, Rashida Jones, Karen Gillan, DJ Khaled",
+        "director": "Nick Bruno",
+        "runtime": ""
       },
       {
         "movie":"Booksmart",
         "id":"505600",
-        "poster_path":"/Awyg5IdELQV3sBoErhJ9QVcX8TA.jpg"
+        "poster_path":"/Awyg5IdELQV3sBoErhJ9QVcX8TA.jpg",
+        "description": "Two academic teenage superstars realize, on the eve of their high school graduation, that they should have worked less and played more. Determined to never fall short of their peers, the girls set out on a mission to cram four years of fun into one night.",
+        "cast": "Kaitlyn Denver, Beanie Feldstein, Jessica Williams, Jason Sudeikis, Diana Silvers",
+        "director": "Olivia Wilde",
+        "runtime": "1h 42m"
       }
     ]
   },
@@ -254,47 +435,83 @@
       {
         "movie":"Spy",
         "id":"238713",
-        "poster_path":"/xaOq0BnMHl445iZ4B7szBzaWgjS.jpg"
+        "poster_path":"/xaOq0BnMHl445iZ4B7szBzaWgjS.jpg",
+        "description": "A desk-bound CIA analyst volunteers to go undercover to infiltrate the world of a deadly arms dealer, and prevent diabolical global disaster.",
+        "cast": "Melissa McCarthy, Jude Law, Rose Byrne, Jason Statham, Miranda Hart",
+        "director": "Paul Feig",
+        "runtime": "2h 0m"
       },
       {
         "movie":"Skyscraper",
         "id":"447200",
-        "poster_path":"/5LYSsOPzuP13201qSzMjNxi8FxN.jpg"
+        "poster_path":"/5LYSsOPzuP13201qSzMjNxi8FxN.jpg",
+        "description": "Framed and on the run, a former FBI agent must save his family from a blazing fire in the world's tallest building.",
+        "cast": "Dwayne Johnson, Neve Campbell, Chin Han, Noah Taylor, Byron Mann",
+        "director": "Rawson Marshall Thurber",
+        "runtime": "1h 42m"
       },
       {
         "movie":"SuperFly",
         "id":"500475",
-        "poster_path":"/gGk9H5PVpWzbsYkmnBeKevQkwwf.jpg"
+        "poster_path":"/gGk9H5PVpWzbsYkmnBeKevQkwwf.jpg",
+        "description": "Career criminal Youngblood Priest wants out of the Atlanta drug scene, but as he ramps up sales, one little slip up threatens to bring the whole operation down before he can make his exit.",
+        "cast": "Trevor Jackson, Jason Mitchell, Michael Kenneth Williams, Lex Scott Davis, Jennifer Morrison ",
+        "director": "Director X.",
+        "runtime": "1h 47m"
       },
       {
         "movie":"Joker",
         "id":"475557",
-        "poster_path":"/bfHlGMDq2RqRT1xmjq9NJSzfhCv.jpg"
+        "poster_path":"/bfHlGMDq2RqRT1xmjq9NJSzfhCv.jpg",
+        "description": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+        "cast": "Joaquin Phoenix, Zazie Beetz, Brett Cullen, Frances COnroy, Robert De Niro",
+        "director": "Todd Phillips",
+        "runtime": ""
       },
       {
         "movie":"The Old Man & the Gun",
         "id":"429203",
-        "poster_path":"/a4BfxRK8dBgbQqbRxPs8kmLd8LG.jpg"
+        "poster_path":"/a4BfxRK8dBgbQqbRxPs8kmLd8LG.jpg",
+        "description": "The true story of Forrest Tucker, from his audacious escape from San Quentin at the age of 70 to an unprecedented string of heists that confounded authorities and enchanted the public.  Wrapped up in the pursuit are a detective, who becomes captivated with Forrest’s commitment to his craft, and a woman, who loves him in spite of his chosen profession.",
+        "cast": "Robert Redford, Casey Affleck, Sissy Spacek, Danny Glover, Tom Waits",
+        "director": "David Lowrey",
+        "runtime": "1h 33m"
       },
       {
         "movie":"If Beale Street Could Talk",
         "id":"465914",
-        "poster_path":"/ye3KqC2hUYia6ktGIhZtmKjj3ya.jpg"
+        "poster_path":"/ye3KqC2hUYia6ktGIhZtmKjj3ya.jpg",
+        "description": "After her fiance is falsely imprisoned, a pregnant African-American woman sets out to clear his name and prove his innocence.",
+        "cast": "Kiki Layne, Stephan James, Regina King, Teyonah Parris, Colman Domingo",
+        "director": "Barry Jenkins",
+        "runtime": "2h 0m"
       },
       {
         "movie":"A Simple Flavor",
         "id":"484247",
-        "poster_path":"/5EJWZQ8dh99hfgXP9zAD5Ak5Hrn.jpg"
+        "poster_path":"/5EJWZQ8dh99hfgXP9zAD5Ak5Hrn.jpg",
+        "description": "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Stephanie undertakes an investigation that will dive deep into Emily's cloudy past.",
+        "cast": "Anna Kendrick, Blake Lively, Henry Golding, Andrew Rannells, Rupert Friend",
+        "director": "Paul Feig",
+        "runtime": "1h 57m"
       },
       {
         "movie":"Holmes and Watson",
         "id":"426563",
-        "poster_path":"/orEUlKndjV1rEcWqXbbjegjfv97.jpg"
+        "poster_path":"/orEUlKndjV1rEcWqXbbjegjfv97.jpg",
+        "description": "Detective Sherlock Holmes and Dr. John Watson join forces to investigate a murder at Buckingham Palace. They soon learn that they have only four days to solve the case, or the queen will become the next victim.",
+        "cast": "Will Ferrell, John C. Reilly, Rebecca Hall, Ralph Fiennes, Hugh Laurie",
+        "director": "Etan Cohen",
+        "runtime": "1h 30m"
       },
       {
         "movie":"Assassination Nation",
         "id":"446101",
-        "poster_path":"/q2Nmyqh84rMiBwNfC2jMjuQluW4.jpg"
+        "poster_path":"/q2Nmyqh84rMiBwNfC2jMjuQluW4.jpg",
+        "description": "High school senior Lily and her group of friends live in a haze of texts, posts, selfies and chats just like the rest of the world. So, when an anonymous hacker starts posting details from the private lives of everyone in their small town, the result is absolute madness leaving Lily and her friends questioning whether they'll live through the night.",
+        "cast": "Odessa Young, Suki Waterhouse, Hari NEf, Abra, Bella Thorne",
+        "director": "Sam Levinson",
+        "runtime": "1h 48m"
       }
     ]
 

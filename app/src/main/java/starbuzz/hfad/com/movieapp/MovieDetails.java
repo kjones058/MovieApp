@@ -3,14 +3,14 @@ package starbuzz.hfad.com.movieapp;
 public class MovieDetails {
     private String Description;
     private String Cast;
-    private String Crew;
+    private String Director;
     private String Trailers;
     private String Reviews;
     private String SimilarMovies;
 
-    public MovieDetails(String cast, String crew, String description, String trailers, String reviews, String similarMovies) {
+    public MovieDetails(String cast, String director, String description, String trailers, String reviews, String similarMovies) {
         Cast = cast;
-        Crew = crew;
+        Director = director;
         Description = description;
         Trailers = trailers;
         Reviews = reviews;
@@ -26,11 +26,11 @@ public class MovieDetails {
     }
 
     public String getCrew() {
-        return Crew;
+        return Director;
     }
 
-    public void setCrew(String crew) {
-        Crew = crew;
+    public void setCrew(String director) {
+        Director = director;
     }
 
     public String getDescription() {
@@ -70,7 +70,7 @@ public class MovieDetails {
         return "MovieDetails{" +
                 "Description='" + Description + '\'' +
                 ", Cast='" + Cast + '\'' +
-                ", Crew='" + Crew + '\'' +
+                ", Crew='" + Director + '\'' +
                 ", Trailers='" + Trailers + '\'' +
                 ", Reviews='" + Reviews + '\'' +
                 ", SimilarMovies='" + SimilarMovies + '\'' +

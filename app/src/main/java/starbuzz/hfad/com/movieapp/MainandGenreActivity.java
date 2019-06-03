@@ -34,26 +34,16 @@ public class MainandGenreActivity extends AppCompatActivity {
 
 
 //        searchMovies();
-       // pullToRefresh = (SwipeRefreshLayout)findViewById(R.id.pullToRefresh);
-       // adapter = new ArrayAdapter(this, R.layout.activity_movie, menu);
         list = new ArrayList<>();
         genrelist = findViewById(R.id.listView_genre_mainandgenre);
 
-//        ListView listView =(ListView) findViewById(R.id.mobile_lis);
-////        listView.setAdapter(adapter);
-
-//        //pullToRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-//           // @Override
-//            public void onRefresh() {
-//
-//            }
-//        });
 
         list.add("Drama");
         list.add("Horror/Thriller");
         list.add("Fantasy/Science Fiction");
         list.add("Romance");
         list.add("Comedy");
+        list.add("Crime/Action");
 
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getApplicationContext(),
