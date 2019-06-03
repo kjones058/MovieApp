@@ -251,16 +251,16 @@ public class MovieActivity extends AppCompatActivity {
 ////        movieContent.getInformation();
     }
 
-    private List<MovieDetails> assignDetails(){
-        String jsonString = readTextFile(getResources().openRawResource(R.raw.movie));
-        Gson gson = new Gson();
-
-        MovieDetails[] details = gson.fromJson(jsonString, MovieDetails[].class);
-        List<MovieDetails> detailsList = Arrays.asList(details);
-        Log.d("DETAILS", detailsList.toString());
-
-        return detailsList;
-    }
+//    private List<MovieDetails> assignDetails(){
+//        String jsonString = readTextFile(getResources().openRawResource(R.raw.movie));
+//        Gson gson = new Gson();
+//
+//        MovieDetails[] details = gson.fromJson(jsonString, MovieDetails[].class);
+//        List<MovieDetails> detailsList = Arrays.asList(details);
+//        Log.d("DETAILS", detailsList.toString());
+//
+//        return detailsList;
+//    }
 
 
 

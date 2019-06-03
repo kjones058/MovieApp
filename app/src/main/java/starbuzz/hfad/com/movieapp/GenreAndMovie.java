@@ -35,6 +35,7 @@ public class GenreAndMovie {
         return movies;
     }
 
+
     public void setMovies(ArrayList<Movie> movies) {
         this.movies = movies;
     }
